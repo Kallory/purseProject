@@ -1,5 +1,11 @@
 /* some universal code here*/
 
+.card img{
+    min-height: 340px;
+    max-height: 340px;
+}
+
+/* THIS CODE EXISTED BEFORE BOOTSTRAP....LEAVING IN FOR POSTERITY
 body {
     background-color: #ADD8E6;
 }
@@ -39,4 +45,4 @@ body {
     /*flex: 1;*/
 }
 
-
+*/
