@@ -5,6 +5,11 @@
     max-height: 340px;
 }
 
+.carousel-item img{
+    min-height: 15em;
+    max-height: 15em;
+}
+
 /* THIS CODE EXISTED BEFORE BOOTSTRAP....LEAVING IN FOR POSTERITY
 body {
     background-color: #ADD8E6;
