@@ -10,6 +10,11 @@
     max-height: 15em;
 }
 
+.carousel-inner{
+    background-color: #D3D3D3;
+}
+
+
 /* THIS CODE EXISTED BEFORE BOOTSTRAP....LEAVING IN FOR POSTERITY
 body {
     background-color: #ADD8E6;
