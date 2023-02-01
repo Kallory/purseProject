@@ -1,0 +1,72 @@
+/* some universal code here*/
+#topBar{
+    padding-top: 1em;
+
+}
+
+/*#titlecap{
+    font-size: 36px;
+}*/
+
+/*#searchBar{}
+
+#buttonToolbar{}*/
+
+.card img{
+    min-height: 340px;
+    max-height: 340px;
+}
+
+.carousel-item img{
+    min-height: 15em;
+    max-height: 15em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.carousel-inner{
+    background-color: #D3D3D3;
+}
+
+
+/* THIS CODE EXISTED BEFORE BOOTSTRAP....LEAVING IN FOR POSTERITY
+body {
+    background-color: #ADD8E6;
+}
+
+.defaultNav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leftNav{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.leftNav button {
+    /*flex: 1;*/
+}
+
+.mainLogo{
+    flex: 4;
+}
+
+.rightNav{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.rightNav button {
+    /*flex: 1;*/
+}
+
+*/
