@@ -10,14 +10,13 @@
 </head>
 <body>
     <div class="container">
-        <div class="row gx-1" id="topBar">
-            
-            <!--copy below code and move to other side of topbartitle-->
-
-            <div class="col-2 d-flex justify-content-start">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Search"
-                    aria-label="search" aria-describedby="search" id="searchBar">
+        <div class="row gy-1" id="topBar"> 
+            <div class="col-8"id="titlecap"><p>JK Purse Emporium</p></div>
+            <div class="col-2 d-flex justify-content-end">
+                <div class="input-group mb-3 d-flex justify-content-end">
+                   <!-- <input type="text" class="form-control" placeholder="Search"
+                    aria-label="search" aria-describedby="search"
+                    id="searchBar">-->
                     <button class="btn btn-outline-secondary" type="button" id="search">
                         <svg xmlns="http://www.w3.org/2000/svg" width="10"
                             height="10" fill="currentColor" class="bi bi-search"
@@ -27,13 +26,7 @@
                     </button>
                 </div>
             </div>
-            <!--copy above here-->
-
-            <div class="col d-flex justify-content-center"id="titlecap"><p>JK Purse Emporium</p></div>
-            
-            <!--paste search bar code below this line-->
-
-            <div class="col-2 col-sm-1 d-flex justify-content-end">
+            <div class="col-2 d-flex justify-content-end">
                 <div class="btn-toolbar" role="toolbar" aria-label="utility
                     toolbar" id="buttonToolbar">
 <!--                    <div class="btn-group me-2" role="group">
@@ -58,9 +51,30 @@
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <nav class="navbar navbar-expand-md bg-body-tertiary">
+                    <div class="container-fluid w-100 d-flex justify-content-end">
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-evenly" id="nav">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item"><a class="nav-link active" aria-current="page"href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Brands</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Exclusive Offers</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Find My Style</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Wishlist</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Social</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">My Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
         </div>
     </div>
-<nav class="navbar navbar-expand-md bg-body-tertiary">
+<!--<nav class="navbar navbar-expand-md bg-body-tertiary">
   <div class="container">
     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -78,7 +92,7 @@
         </ul>
     </div>
   </div>
-</nav>
+</nav>-->
 <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-theme="dark">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
