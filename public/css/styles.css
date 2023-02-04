@@ -8,9 +8,11 @@
     font-size: 36px;
 }*/
 
-/*#searchBar{}
+/*#searchBar{}*/
 
-#buttonToolbar{}*/
+#buttonToolbar{
+    max-height: 2em;
+}
 
 .card img{
     min-height: 340px;

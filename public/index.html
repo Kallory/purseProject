@@ -10,45 +10,83 @@
 </head>
 <body>
     <div class="container">
-        <div class="row" id="topBar">
-            <div class="col-3 col-sm-1 d-flex justify-content-start">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Search"
-                    aria-label="search" aria-describedby="search" id="searchBar">
-                    <button class="btn btn-outline-secondary" type="button" id="search">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <div class="row gy-1" id="topBar"> 
+            <div class="col-8"id="titlecap"><p>JK Purse Emporium</p></div>
+            <div class="col-2 d-flex justify-content-end">
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle"
+                        type="button" data-bs-toggle="dropdown" id="search" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10"
+                            height="10" fill="currentColor" class="bi bi-search"
+                            viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                         </svg>
                     </button>
+                    <form class="dropdown-menu">
+                        <div class="input-group mb-3 d-flex justify-content-end">
+                            <input type="text" class="form-control" placeholder="Search"
+                    aria-label="search" aria-describedby="search"
+                    id="searchBar">
+                            <button class="btn btn-outline-secondary" type="button" id="search">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10"
+                            height="10" fill="currentColor" class="bi bi-search"
+                            viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-6 d-flex justify-content-center"id="titlecap"><p>JK Purse Emporium</p></div>
-            <div class="col-3 col-sm-1 d-flex justify-content-end">
+            <div class="col-2 d-flex justify-content-end">
                 <div class="btn-toolbar" role="toolbar" aria-label="utility
                     toolbar" id="buttonToolbar">
-                    <div class="btn-group me-2" role="group">
+<!--                    <div class="btn-group me-2" role="group">
                         <button type="button" class="btn btn-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
                                 <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"/>
                                 <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"/>
                             </svg>
-                        </button>
+                        </button>-->
                         <button type="button" class="btn btn-primary">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi
+                                bi-cart" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                             </svg>
                         </button>
-                        <button type="button" class="btn btn-primary">
+<!--                        <button type="button" class="btn btn-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                                 <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
                             </svg>
-                        </button>
+</button>-->
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <nav class="navbar navbar-expand-md bg-body-tertiary">
+                    <div class="container-fluid w-100 d-flex justify-content-end">
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-evenly" id="nav">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item"><a class="nav-link active" aria-current="page"href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Brands</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Exclusive Offers</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Find My Style</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Wishlist</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Social</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">My Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
         </div>
     </div>
-<nav class="navbar navbar-expand-md bg-body-tertiary">
+<!--<nav class="navbar navbar-expand-md bg-body-tertiary">
   <div class="container">
     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -58,13 +96,15 @@
             <li class="nav-item"><a class="nav-link active" aria-current="page"
                     href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Brands</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Exclusive Offers</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Find My Style</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Exclusive Savings</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Wishlist</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Social</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">My Account</a></li>
         </ul>
     </div>
   </div>
-</nav>
+</nav>-->
 <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-theme="dark">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
